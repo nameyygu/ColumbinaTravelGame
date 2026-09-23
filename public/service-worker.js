@@ -1,6 +1,6 @@
 // 只缓存同源静态发布文件。浏览器本地存档不会经过 fetch，因此绝不在此缓存或上传。
 // 每次发布静态资源变更时递增；activate 会清理旧版本缓存。
-const CACHE_NAME = 'columbina-travel-static-v9';
+const CACHE_NAME = 'columbina-travel-static-v10';
 const APP_SHELL = ['./', './index.html', './开始游戏.html', './manifest.webmanifest', './src/main.js', './src/legacy-entry.js', './src/pwa/registerServiceWorker.js'];
 const STATIC_FILE = /\.(?:html?|js|mjs|css|json|webmanifest|png|jpe?g|webp|gif|svg|ico|woff2?|ttf|otf)$/i;
 function isStaticRequest(request) {
