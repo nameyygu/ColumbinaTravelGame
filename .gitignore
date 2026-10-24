@@ -15,3 +15,6 @@ desktop.ini
 # Vite / npm
 node_modules/
 dist/
+
+# 本地工作日志与证据报告（不入库）
+**/_logs/
